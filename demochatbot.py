@@ -8,6 +8,8 @@ from tensorflow.keras.models import load_model
 import pickle
 from nltk.stem.lancaster import LancasterStemmer
 
+nltk.download('punkt')
+
 # Initialize the Lancaster Stemmer
 stemmer = LancasterStemmer()
 
